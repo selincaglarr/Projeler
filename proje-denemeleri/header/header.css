@@ -1,0 +1,77 @@
+header{
+    background: rgb(44, 44, 44);
+    display: flex;
+    margin:3px ;
+    padding:3px;
+}
+
+
+.logo{
+    flex: 20%;
+    padding: 0px 0px 0px 15px;
+  
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+
+
+.menu li{
+    display: inline;
+    margin:10px;
+    position: relative;
+    flex:5;
+    
+}
+
+.menu li a{
+    text-decoration: none;
+    color:rgb(223, 223, 223);
+    flex:5;
+    margin:10px;
+    
+}
+
+.menu li a:hover{
+    color:rgb(122, 122, 122);
+    border-bottom:blue 1em;
+ 
+}
+
+
+
+.login{
+    flex: 20%;
+    justify-content:flex-end;
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    justify-content:flex-end;
+   
+}
+
+
+
+.login a{
+    margin:8px;
+    padding:10px 15px;
+    background-color: rgb(51, 50, 50);
+    border-radius: 40%;
+    text-decoration: none;
+    color: rgb(233, 231, 231);
+ 
+}
+
+.login .register{
+    background-color:orange;
+    color: rgb(230, 230, 230);
+    border-radius: 38%;
+    text-decoration: none;
+}
